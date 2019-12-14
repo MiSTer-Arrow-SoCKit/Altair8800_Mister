@@ -112,7 +112,9 @@ In case of Altera DE10-Standard the First GPIO header is JP1, because no other G
 In case of Altera DE1-SoC the First GPIO header is JP1, the second is JP2
 
 In case of Arrow SoCKit:
+
 -there is no integrated GPIO header, you have to use HSMC-GPIO daughter board card and the first available GPIO header will be J2.
+
 -before you connect the HSMC-GPIO board, you have to switch iostandards to 3.3V on JP2 jumper on ArrowSoc Kit board. If you miss this step, you can damage the connected devices/uart/usb/ttl devices on the daughter board, please be careful and connect to 3.3v mode phyisically!
 
 The GPIO header layour will be similar for each boards.
