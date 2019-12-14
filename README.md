@@ -116,7 +116,7 @@ In case of Arrow SoCKit:
 - before you connect the HSMC-GPIO board, you have to switch iostandards to 3.3V with JP2 jumper on ArrowSoc Kit board itself.
 If you miss this step, you can damage the connected devices/uart/usb/ttl devices on the daughter board, please be careful and connect to 3.3v mode phyisically!
 
-The GPIO header layour will be similar for each boards.
+The GPIO header layout will be similar for each boards.
 
 ![Altair8800-DE10-Standard-DE1-SoC-SoCKit-GPIO-Serial-layout](https://user-images.githubusercontent.com/48859672/70395398-7e535700-19fe-11ea-9c66-eecc22df36e7.png)
 
